@@ -3,5 +3,4 @@
 
 
 opcion=0
-nombre="Carlos Mario"
-echo "Opcion: $opcion y nombre: $nombre"
+echo "Opcion: $opcion y nombre pasado del script anterior: $nombre"
