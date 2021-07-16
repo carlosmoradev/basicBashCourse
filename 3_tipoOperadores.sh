@@ -1,4 +1,4 @@
-# !/bin/sh
+# !/bin/bash
 #Programa para revisar los tipos de operadores
 
 numA=10
@@ -11,3 +11,8 @@ echo "Restar A - B =" $((numA - numB))
 echo "Multiplicar A * B =" $((numA * numB))
 echo "Dividir A / B =" $((numA / numB))
 echo "Residuo entre A y B =" $((numA % numB))
+
+echo -e "\nOperadores relacionales"
+echo "Numeros A=$numA y B=numB"
+echo "A > B ="$((numA > numB))
+echo "A < B ="$((numA < numB))
